@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+<title>Primera Preentrega</title>
+<meta name="description" content="1era Entrega de Javascript"/>
+<meta name="keywords" content="Coderhouse, curso, Javascript"/>
+    <head>
+        <!-- CDN de Bootstrap CSS --> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- CDN de Bootstrap JS --> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <!-- Tag de Viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+       <section class="container pt-5 pb-5 intro">
+            <div class="row pt-5">
+                <div class="col-md-6 fade-in-left">
+                    <h1 class="display-1">Bienvenido!</h1>
+                    <p class="lead fade-in">Reservá tu turno online.</p>
+                </div>
+                <div class="col-md-6 fade-in-left">
+                    <form>
+                        <div class="form-group">
+                          <label for="name">Nombre</label>
+                          <input class="form-control mb-2" type="text" name="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="service">Tipo de service:</label>
+                            <select class="form-control mb-2" name="Service">
+                              <option>Aceite</option>
+                              <option>Filtro</option>
+                              <option>Cubierta</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cantidad">Cantidad:</label>
+                            <select class="form-control mb-2" name="Cantidad">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary mb-2" type="submit">Enviar</button>
+                        </div>
+                      </form>
+                </div>          
+            </div>
+        </section>
+        <!-- Script para formulario -->
+        <script src="js/main.js"></script>
+    </body>
+    <footer></footer>
+</html>
